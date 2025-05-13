@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gemspec
 
-case version = ENV['MONGOID_VERSION'] || '~> 4.0'
+case version = ENV['MONGOID_VERSION'] || '~> 4.0.1'
 when /5/
   gem 'mongoid', '~> 5.1.0'
 when /4/
